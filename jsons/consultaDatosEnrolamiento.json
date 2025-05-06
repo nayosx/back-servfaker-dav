@@ -1,0 +1,19 @@
+{
+    "header": {
+        "idTransaccion": "1234567891011",
+        "idSesion": "124999519133312",
+        "codigo": 0,
+        "descripcion": "OK",
+        "fechaHora": "2025-04-23 13:52:13"
+    },
+    "body": {
+        "atributos": [
+            {
+                "idEmpresa": 1,
+                "idColector": 1,
+                "idAtributo": 1,
+                "valor": "230"
+            }
+        ]
+    }
+}

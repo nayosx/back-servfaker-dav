@@ -1,0 +1,144 @@
+{
+    "header": {
+        "idTransaccion": "1234567891011",
+        "idSesion": "124999519133312",
+        "codigo": 0,
+        "descripcion": "OK",
+        "fechaHora": "2025-04-23 13:51:02"
+    },
+    "body": {
+        "tipoMensajeRespuesta": "infoColector",
+        "respuestaInfoColector": {
+            "idColector": "51",
+            "nombre": "TESORERIA CNR",
+            "poseeCodigoBarra": "N",
+            "idCategoriaColector": "121",
+            "nombreCategoria": "EMPRESAS GOBIERNO",
+            "codTipoCuenta": "CDEP",
+            "descripcionTipoCuenta": "CUENTA CORRIENTE",
+            "numeroCuentaAbono": "2220999101010303",
+            "referenciaImagen": "",
+            "referenciaAudioIVR": "",
+            "idTipologia": "121",
+            "esCodigoDiesco": "N",
+            "descripcionTipologia": "GOBIERNO",
+            "valDuplicidadPago": "N",
+            "obtencionFecVencimiento": "L",
+            "prefijoBarra": "0",
+            "prefijoNPE": "0",
+            "niu": "220073833",
+            "numeroIdIBS": "777000057",
+            "cuentaContable": "2220999101012106",
+            "cuentaFinalColector": "5220006509",
+            "validacionesJerarquica": {
+                "valEnLinea": "S",
+                "valBaseDatoRecibida": "N",
+                "valDigitoVerificador": "S"
+            },
+            "fechaVencimiento": {
+                "validarFechaVencimiento": "N",
+                "accionValFecVencimiento": ""
+            },
+            "calculoMora": {
+                "tipoDeMora": "",
+                "valorMora": "0",
+                "realizarCalculoMoraLinea": "",
+                "calculoMoraEspecializada": ""
+            },
+            "atributos": [
+                {
+                    "valorAtributoPantalla": "",
+                    "srvValidacion": "BRK_PAGO_FACTURA_ONLINE_CNR",
+                    "idAtributo": "1501",
+                    "tipoDato": "C",
+                    "leyendaDespliegue": "BRK_PAGO_FACTURA_ONLINE_CNR",
+                    "secDespliegue": "1",
+                    "esLlaveBusqueda": "N",
+                    "esObligatorio": "N",
+                    "pedirPantalla": "N",
+                    "nombre": "BRK_PAGO_FACTURA_ONLINE_CNR",
+                    "valorPosibleAtributo": null
+                },
+                {
+                    "valorAtributoPantalla": "",
+                    "srvValidacion": "BRK_REVERSA_PAGO_FACTURA_ONLINE_CNR",
+                    "idAtributo": "1502",
+                    "tipoDato": "C",
+                    "leyendaDespliegue": "BRK_REVERSA_PAGO_FACTURA_ONLINE_CNR",
+                    "secDespliegue": "2",
+                    "esLlaveBusqueda": "N",
+                    "esObligatorio": "N",
+                    "pedirPantalla": "N",
+                    "nombre": "BRK_REVERSA_PAGO_FACTURA_ONLINE_CNR",
+                    "valorPosibleAtributo": null
+                },
+                {
+                    "valorAtributoPantalla": "",
+                    "srvValidacion": "BRK_VALIDAR_COMPROBANTE_CNR",
+                    "idAtributo": "1521",
+                    "tipoDato": "C",
+                    "leyendaDespliegue": "NUMERO_COMPROBANTE_PAGO",
+                    "secDespliegue": "3",
+                    "esLlaveBusqueda": "N",
+                    "esObligatorio": "N",
+                    "pedirPantalla": "S",
+                    "nombre": "NUMERO_COMPROBANTE_PAGO",
+                    "valorPosibleAtributo": null
+                },
+                {
+                    "valorAtributoPantalla": "",
+                    "srvValidacion": "J2EV_VALIDACION_ATRIBUTO_BASICO",
+                    "idAtributo": "1522",
+                    "tipoDato": "C",
+                    "leyendaDespliegue": "Efectivo",
+                    "secDespliegue": "4",
+                    "esLlaveBusqueda": "N",
+                    "esObligatorio": "N",
+                    "pedirPantalla": "N",
+                    "nombre": "Efectivo",
+                    "valorPosibleAtributo": [
+                        {
+                            "despliegue": "+00357-CLT",
+                            "valorAtributo": "357-TESORERIA CNR"
+                        },
+                        {
+                            "despliegue": "+00350-CLT",
+                            "valorAtributo": "350-EMPRESAS DE GOBIERNO"
+                        },
+                        {
+                            "despliegue": "+00215-CLT",
+                            "valorAtributo": "215-TOTAL COLECTORES"
+                        },
+                        {
+                            "despliegue": "+00350-USD",
+                            "valorAtributo": "350-EMPRESAS DE GOBIERNO"
+                        }
+                    ]
+                },
+                {
+                    "valorAtributoPantalla": "",
+                    "srvValidacion": "J2EV_DEFINICION_MONTO",
+                    "idAtributo": "1523",
+                    "tipoDato": "N",
+                    "leyendaDespliegue": "MONTO",
+                    "secDespliegue": "5",
+                    "esLlaveBusqueda": "S",
+                    "esObligatorio": "S",
+                    "pedirPantalla": "S",
+                    "nombre": "monto",
+                    "valorPosibleAtributo": null
+                }
+            ],
+            "canalesHabilitados": [
+                {
+                    "codigoCanal": "JTELL",
+                    "idCanal": "8",
+                    "codigoIBS": "2868",
+                    "motivo": "009",
+                    "lote": "5125",
+                    "descripcion": "TESORERIA CNR"
+                }
+            ]
+        }
+    }
+}

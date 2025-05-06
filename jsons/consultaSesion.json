@@ -1,0 +1,17 @@
+{
+    "header": {
+        "idTransaccion": "1234567891011",
+        "idSesion": "17183192140337",
+        "codigo": 0,
+        "descripcion": "OK",
+        "fechaHora": "2025-04-28 09:56:50"
+    },
+    "body": {
+        "niu": 17183192,
+        "nombre": "CLIENTE PRUEBA                               ",
+        "tipoDocumento": "DUI",
+        "numeroDocumento": "022148662",
+        "ultimoLogin": "2025-04-28 00:00:00.000000",
+        "modoAutenticacion": 1
+    }
+}

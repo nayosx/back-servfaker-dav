@@ -1,0 +1,32 @@
+{
+    "header": {
+      "idTransaccion": "1234567891011",
+      "idSesion": "123456789",
+      "codigo": 0,
+      "descripcion": "OK",
+      "fechaHora": "2025-05-02 15:39:12"
+    },
+    "body": [
+      {
+        "cliente": 2378,
+        "usuarios": [
+          "banco1",
+          "creyes",
+          "emaya",
+          "jpquevara",
+          "jwilfredo",
+          "optima1",
+          "wilfredop"
+        ],
+        "nombre": "Cliente 2378",
+        "modulos": 4124,
+        "direccion": "Alm. Manuel Enrique Araujo, Centro Financiero",
+        "telefono": "2214-20000",
+        "fax": "2214-2008",
+        "email": "jose_castillo@davivienda.com.sv",
+        "nombreContacto": "DAVIVIENDA",
+        "apellidoContacto": "EL Salvador"
+      }
+    ]
+  }
+  

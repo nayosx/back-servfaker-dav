@@ -1,0 +1,42 @@
+{
+    "header": {
+      "idTransaccion": "1234567891011",
+      "idSesion": "123456789",
+      "codigo": 0,
+      "descripcion": "OK",
+      "fechaHora": "2025-05-02 15:41:16"
+    },
+    "body": {
+      "cliente": 691,
+      "nombre": "Usuario",
+      "apellido": "agiron",
+      "email": "jose.castillo@davivienda.com.sv",
+      "numeroDocumento": "007149295",
+      "puesto": "Director Legal",
+      "tipoDocumento": 1,
+      "usuario": "agiron",
+      "roles": [
+        {
+          "nombreRol": "A",
+          "producto": 1,
+          "rol": 101
+        },
+        {
+          "nombreRol": "A",
+          "producto": 2,
+          "rol": 101
+        },
+        {
+          "nombreRol": "A",
+          "producto": 4,
+          "rol": 101
+        },
+        {
+          "nombreRol": "A",
+          "producto": 6,
+          "rol": 101
+        }
+      ]
+    }
+  }
+  
